@@ -12,16 +12,27 @@ This is the assignment the project was created for
 Write your program so that the game can be played 10 consecutive times with the winner of each game winning one point (two points if doubled). At the end of the 10 games print out the total winnings for you and the computer. The example below shows only a partial run. The output produced should be sent to the screen as well as an output file. Please submit your program and the output produced on a hard copy. 
  
  
-Let us play one hand. You: 7 9 Me:  2  
+Let us play one hand. 
+* You: 7 9 Me:  2   
+* Do you want another card? No 
+* Let me pick one or more cards until the total  >= 17 ... 6 10        (comment: you do not have to show the previous card) 
+* I have 18 and you have 16 so I win! 
  
-Do you want another card? No 
- 
-Let me pick one or more cards until the total  >= 17 ... 6 10        (comment: you do not have to show the previous card) I have 18 and you have 16 so I win! 
- 
-Let us play one hand. You: 6 7  Me: 10  Do you want another card? yes 
-You: 8. Your total now is 21. Do you want another card? No Let me pick one or more cards until the total  >= 17 ... Me: 9 I have 19 and you have 21 so you win!  .  .  . Let us play one hand. You: 6 10 4  Me: Ace Do you want another card? No Let me pick one or more cards until the total  >= 17 ... Me: 9 
- 
-I have 20 and you have 20 so we draw. . . . . My winnings = 4 Your winnings = 5 _____________________________________________________________ 
+Let us play one hand. 
+* You: 6 7  Me: 10  
+* Do you want another card? yes 
+* You: 8. Your total now is 21. 
+* Do you want another card?
+* No Let me pick one or more cards until the total  >= 17 ... 
+* Me: 9 I have 19 and you have 21 so you win!  .  .  . 
+
+Let us play one hand. * You: 6 10 4  Me: Ace 
+* Do you want another card?
+* No Let me pick one or more cards until the total  >= 17 ... 
+* Me: 9 I have 20 and you have 20 so we draw. . . . . 
+* My winnings = 4 Your winnings = 5 
+
+_____________________________________________________________ 
  
 The following is a sample program containing the random number generator available in C++. Make the changes necessary to fit your needs (You must have the statements shown in bold face in your program). 
  
