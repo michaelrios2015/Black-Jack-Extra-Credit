@@ -4,7 +4,7 @@
 
 This is the assignment the project was created for 
 
-   Optional Project      COSC 501             By Prof. H. Zhou  Due: 12/15/2013                                           
+**COSC 501 at Towson University**                                           
  
  Write a program that simulates a simplified version of the game "BlackJack".  A deck of cards numbered 2 to 10, jacks, queens, kings, and aces is used, where jacks, queens and kings are counted as 10s, and aces are either 1 or 11 at your choice.  Any number can be repeated since the deck contains many cards. The computer starts by giving you two cards and shows you one of its cards, all of which are randomly picked. Then the computer asks you whether or not to want another card. This process stops when you say "no", or the total of your cards exceeds 21, in which case you automatically lose. If your value is under or equal to 21 and you decide to stay, the computer deals its cards until its total is greater than or equal to 17. If the computer's total is greater than 21, you win by default. The winner is the one with the highest score equal to or less than 21. You can double the hand if the total of the first two cards is 10 or 9. Once doubled, you will be allowed to ask for only one card (Only the bet is doubled, not the value of a hand). Whoever wins this hand, the payoff will be doubled too. You are welcome to enhance this version by adding the options of splitting and surrendering. 
  
